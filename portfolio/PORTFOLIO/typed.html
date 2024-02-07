@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>typed_ex</title>
+    <link rel="stylesheet" href="typed.css">
+</head>
+<body>
+    <div class = "container">
+        <h1>Iam <span class="auto_type">Sweety!</span></h1>
+    </div>
+    
+</body>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto_type",{
+            strings : ["web Developer","Graphic Designer","Creative Thinker"],
+            typeSpeed : 150,
+            backSpeed: 150,
+            loop: true
+        })
+    </script>
+</html>
